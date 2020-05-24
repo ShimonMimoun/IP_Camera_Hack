@@ -1,40 +1,27 @@
-#  IP Camera Hack
+# IP Camera Hack
 
-##  Install:
+## Get started ✨
 
-  
-1:
+Step 1 : Install dependencies
 
-    apt-get install python3
-2:
+```shell
+sudo apt-get update
+sudo apt-get install python3
+sudo apt-get install git
+sudo apt-get install python3-pip
+pip3 install requests
+```
 
-    apt-get install git
-3:    
+Step 2 : Clone and run project
 
-    pip3 install requests
+```shell
+~$ git clone https://github.com/ShimonMimoun/IP_Camera_Hack
+~$ cd IP_Camera_Hack/
+~IP_Camera_Hack/$ python3 main.py
+```
 
-## Run:
-
-
-    cd IP_Camera_Hack
-Launch
-
-    python3 cam_ip.py
-
-## Author 
+## Authors
 
 [Shimon Mimoun](https://www.linkedin.com/in/shimonmimoun/)
+
 [Omer Paz](https://github.com/omerpaz1)
-
-
-
-
-
-
-
-
-
-
-
-
-
